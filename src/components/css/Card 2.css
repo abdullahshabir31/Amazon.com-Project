@@ -1,0 +1,83 @@
+.card {
+  height: 420px;
+  width: 291px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-radius: 0px;
+}
+
+.title-div {
+  padding-left: 8px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 21px;
+  font-weight: bold;
+  font-family: amazon-ember, Arial, sans-serif;
+  margin: 0;
+}
+
+.product-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-div:hover .shop-link {
+  color: #0c3353;
+}
+
+.image-product-div {
+  height: 138px;
+  width: 251px;
+}
+
+.img-div {
+  display: flex;
+  height: 95px;
+  width: 251px;
+}
+
+.product-image-1 {
+  width: 120px;
+  height: 95px;
+  object-fit: cover;
+}
+
+.product-image-2 {
+  width: 120px;
+  height: 95px;
+  object-fit: cover;
+  margin-left: 13px;
+}
+
+.img-title-div {
+  display: flex;
+}
+
+.img-title-1 {
+  font-size: 12px;
+  font-family: amazon-ember, Arial, sans-serif;
+  color: #333;
+}
+
+.img-title-2 {
+  font-size: 12px;
+  font-family: amazon-ember, Arial, sans-serif;
+  color: #333;
+  margin-left: 13px;
+}
+
+.shop-link {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #2162a1;
+  font-family: amazon-ember, Arial, sans-serif;
+  text-decoration: none;
+  width: 251px;
+}
