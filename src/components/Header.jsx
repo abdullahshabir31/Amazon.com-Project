@@ -1,4 +1,10 @@
 import "./css/Header.css";
+import AmazonLogo from "../images/Amazon Logo.webp";
+import LocationLogo from "../images/Location Logo.png";
+import SearchIcon from "../images/Search Icon.png";
+import USAFlag from "../images/USA Flag.png";
+import CartLogo from "../images/Cart Logo.png";
+import LineLogo from "../images/3 Line Logo.png";
 
 export default function Header() {
   return (
@@ -7,19 +13,12 @@ export default function Header() {
         <div className="nav-left">
           <div className="div-logo">
             <a className="logo-link" href="https://www.amazon.com/">
-              <img
-                className="logo-img"
-                src="src\images\Amazon Logo.webp"
-                alt="Amazon Logo"
-              ></img>
+              <img className="logo-img" src={AmazonLogo} alt="Amazon Logo" />
             </a>
           </div>
           <div className="location-div">
             <div className="location-logo">
-              <img
-                className="location-img"
-                src="src\images\Location Logo.png"
-              ></img>
+              <img className="location-img" src={LocationLogo}></img>
             </div>
             <div className="location-text">
               <span className="location-text-1">Deliver to</span>
@@ -42,7 +41,7 @@ export default function Header() {
               <div className="search-right">
                 <img
                   className="search-icon"
-                  src="src\images\Search Icon.png"
+                  src={SearchIcon}
                   alt="Search Icon"
                 ></img>
               </div>
@@ -55,7 +54,7 @@ export default function Header() {
               <div className="nav-country-center">
                 <img
                   className="nav-country-icon"
-                  src="src\images\USA Flag.png"
+                  src={USAFlag}
                   alt="Country Icon"
                 />
                 <span className="nav-country-text">EN</span>
@@ -81,11 +80,7 @@ export default function Header() {
           <div className="cart-div">
             <div className="cart-div-2">
               <span className="cart-0">0</span>
-              <img
-                className="cart-logo"
-                src="src/images/Cart Logo.png"
-                alt="Cart Icon"
-              />
+              <img className="cart-logo" src={CartLogo} alt="Cart Icon" />
             </div>
             <span className="cart-text">Cart</span>
           </div>
@@ -93,11 +88,7 @@ export default function Header() {
       </div>
       <div className="header-div-2">
         <div className="all-div">
-          <img
-            className="line-logo"
-            src="src\images\3 Line Logo.png"
-            alt="All Logo"
-          />
+          <img className="line-logo" src={LineLogo} alt="All Logo" />
           <span className="all-text">All</span>
         </div>
         <div className="header-2-list">
