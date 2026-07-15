@@ -5,6 +5,32 @@ import Carousel from "./components/Carousel";
 import Footer1 from "./components/Footer1";
 import Footer2 from "./components/Footer2";
 import Header from "./components/Header";
+import Image1 from "./products/Image 1.jpg";
+import Image2 from "./products/Image 2.jpg";
+import Image3 from "./products/Image 3.jpg";
+import Image4 from "./products/Image 4.jpg";
+import Image5 from "./products/Image 5.jpg";
+import Image6 from "./products/Image 6.jpg";
+import Image7 from "./products/Image 7.jpg";
+import Image8 from "./products/Image 8.jpg";
+import Image9 from "./products/Image 9.jpg";
+import Image10 from "./products/Image 10.jpg";
+import Image11 from "./products/Image 11.jpg";
+import Image12 from "./products/Image 12.jpg";
+import Image13 from "./products/Image 13.jpg";
+import Image14 from "./products/Image 14.jpg";
+import Image15 from "./products/Image 15.jpg";
+import Image16 from "./products/Image 16.jpg";
+import Image17 from "./products/Image 17.jpg";
+import Image18 from "./products/Image 18.jpg";
+import Image19 from "./products/Image 19.jpg";
+import Image20 from "./products/Image 20.jpg";
+import Image21 from "./products/Image 21.jpg";
+import Image22 from "./products/Image 22.jpg";
+import Image23 from "./products/Image 23.jpg";
+import Image24 from "./products/Image 24.jpg";
+import Image25 from "./products/Image 25.jpg";
+import Image26 from "./products/Image 26.jpg";
 
 function App() {
   return (
@@ -13,17 +39,13 @@ function App() {
       <Carousel />
       <div className="card-container">
         <div className="row">
-          <Card
-            title="Get Your Game On"
-            image="src/products/Image 1.jpg"
-            link="Shop Gaming"
-          />
+          <Card title="Get Your Game On" image={Image1} link="Shop Gaming" />
           <Card2
             title="Shop For Your Home Essentials"
-            image="src\products\Image 7.jpg"
-            image2="src\products\Image 8.jpg"
-            image3="src\products\Image 9.jpg"
-            image4="src\products\Image 10.jpg"
+            image={Image7}
+            image2={Image8}
+            image3={Image9}
+            image4={Image10}
             imgTitle="Cleaning Tools"
             imgTitle2="Home Storage"
             imgTitle3="Home Decor"
@@ -32,10 +54,10 @@ function App() {
           />
           <Card2
             title="New home arrivals under $50"
-            image="src\products\Image 3.jpg"
-            image2="src\products\Image 4.jpg"
-            image3="src\products\Image 5.jpg"
-            image4="src\products\Image 6.jpg"
+            image={Image3}
+            image2={Image4}
+            image3={Image5}
+            image4={Image6}
             imgTitle="Kitchen & Dining"
             imgTitle2="Home Improvement"
             imgTitle3="Decor"
@@ -44,10 +66,10 @@ function App() {
           />
           <Card2
             title="Save Big On School Essentials"
-            image="src\products\Image 11.jpg"
-            image2="src\products\Image 12.jpg"
-            image3="src\products\Image 13.jpg"
-            image4="src\products\Image 14.jpg"
+            image={Image11}
+            image2={Image12}
+            image3={Image13}
+            image4={Image14}
             imgTitle="Backpacks"
             imgTitle2="Electronics"
             imgTitle3="Stationery"
@@ -58,10 +80,10 @@ function App() {
         <div className="row row-2">
           <Card2
             title="Fashion Trends You Like"
-            image="src\products\Image 15.jpg"
-            image2="src\products\Image 16.jpg"
-            image3="src\products\Image 17.jpg"
-            image4="src\products\Image 18.jpg"
+            image={Image15}
+            image2={Image16}
+            image3={Image17}
+            image4={Image18}
             imgTitle="Dresses"
             imgTitle2="Knits"
             imgTitle3="Jackets"
@@ -70,10 +92,10 @@ function App() {
           />
           <Card2
             title="Shop Fashion For Less Than $50"
-            image="src\products\Image 19.jpg"
-            image2="src\products\Image 20.jpg"
-            image3="src\products\Image 21.jpg"
-            image4="src\products\Image 22.jpg"
+            image={Image19}
+            image2={Image20}
+            image3={Image21}
+            image4={Image22}
             imgTitle="Jeans Under $50"
             imgTitle2="Tops Under $25"
             imgTitle3="Dresses Under $30"
@@ -82,15 +104,15 @@ function App() {
           />
           <Card
             title="Deals For Every Grade"
-            image="src\products\Image 2.jpg"
+            image={Image2}
             link="See All Deals"
           />
           <Card2
             title="Level Up Your Beauty Routine"
-            image="src\products\Image 23.jpg"
-            image2="src\products\Image 24.jpg"
-            image3="src\products\Image 25.jpg"
-            image4="src\products\Image 26.jpg"
+            image={Image23}
+            image2={Image24}
+            image3={Image25}
+            image4={Image26}
             imgTitle="Makeup"
             imgTitle2="Brushes"
             imgTitle3="Sponges"

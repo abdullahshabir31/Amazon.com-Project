@@ -1,43 +1,28 @@
 import "./css/Carousel.css";
+import Carousel2Img from "../images/Carousel (2).jpg";
+import Carousel3Img from "../images/Carousel (3).jpg";
+import Carousel4Img from "../images/Carousel (4).jpg";
+import Carousel5Img from "../images/Carousel (5).jpg";
+import Carousel1Img from "../images/Carousel (1).jpg";
 
 export default function Carousel() {
   return (
     <div id="carouselExample" className="carousel slide">
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img
-            src="src\images\Carousel (2).jpg"
-            className="d-block w-100"
-            alt="Image 1"
-          />
+          <img src={Carousel2Img} className="d-block w-100" alt="Image 1" />
         </div>
         <div className="carousel-item">
-          <img
-            src="src\images\Carousel (3).jpg"
-            className="d-block w-100"
-            alt="Image 2"
-          />
+          <img src={Carousel3Img} className="d-block w-100" alt="Image 2" />
         </div>
         <div className="carousel-item">
-          <img
-            src="src\images\Carousel (4).jpg"
-            className="d-block w-100"
-            alt="Image 3"
-          />
+          <img src={Carousel4Img} className="d-block w-100" alt="Image 3" />
         </div>
         <div className="carousel-item">
-          <img
-            src="src\images\Carousel (5).jpg"
-            className="d-block w-100"
-            alt="Image 4"
-          />
+          <img src={Carousel5Img} className="d-block w-100" alt="Image 4" />
         </div>
         <div className="carousel-item">
-          <img
-            src="src\images\Carousel (1).jpg"
-            className="d-block w-100"
-            alt="Image 5"
-          />
+          <img src={Carousel1Img} className="d-block w-100" alt="Image 5" />
         </div>
       </div>
       <button
