@@ -1,12 +1,62 @@
-# React + Vite
+# 🛒 Amazon.com Front Page Clone (React Practice Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **Frontend-Only Clone** of the Amazon.com homepage, built with **React** for practice and learning purposes. The project focuses on recreating the layout, styling, and overall user interface of the original Amazon homepage while following a **component-based architecture**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+🔗 **Live Site:** https://amazon-frontpage-project.vercel.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 Purpose
+
+This project was created as part of my React learning journey to:
+
+- Practice building modern user interfaces with React
+- Learn and implement reusable React components
+- Improve component-based architecture skills
+- Enhance responsive frontend development
+- Strengthen JavaScript and React fundamentals
+
+---
+
+## ✨ Features
+
+- Responsive homepage layout
+- Reusable React components
+- Modern UI inspired by Amazon.com
+- Clean and organized project structure
+- Fast and interactive user experience
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+---
+
+## 📚 What I Learned
+
+While building this project, I gained hands-on experience with:
+
+- Creating and reusing React components
+- Managing component structure
+- Passing data through props
+- Organizing a React project efficiently
+- Building responsive user interfaces
+
+---
+
+# 👨‍💻 Author
+
+**Abdullah Shabir**
+
+- GitHub: https://github.com/abdullahshabir31
+- LinkedIn: https://www.linkedin.com/in/abdullahshabir31/
+- Portfolio: https://abdullah-shabir-portfolio.vercel.app/
