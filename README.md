@@ -59,4 +59,4 @@ While building this project, I gained hands-on experience with:
 
 - GitHub: https://github.com/abdullahshabir31
 - LinkedIn: https://www.linkedin.com/in/abdullahshabir31/
-- Portfolio: https://abdullah-shabir-portfolio.vercel.app/
+- Portfolio: https://abdullah-myportfolio.vercel.app/
