@@ -4,12 +4,6 @@ This is a **Frontend-Only Clone** of the Amazon.com homepage, built with **React
 
 ---
 
-## 🌐 Live Demo
-
-🔗 **Live Site:** https://amazon-frontpage-project.vercel.app/
-
----
-
 ## 🎯 Purpose
 
 This project was created as part of my React learning journey to:
